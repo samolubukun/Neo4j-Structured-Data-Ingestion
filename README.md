@@ -1,24 +1,3 @@
-# Data Ingestion Pipeline
-
-A minimal Node.js Express API for ingesting structured data (CSV, JSON, Excel) into Neo4j using LLM-generated Cypher queries.
-
-## Setup
-
-1. **Install dependencies**
-```bash
-npm install
-```
-
-2. **Configure environment**
-Edit `.env` file with your settings:
-- Neo4j credentials
-- LLM API key (OpenAI, Anthropic, etc.)
-- Upload directory paths
-
-3. **Start Neo4j**
-Ensure Neo4j is running on `bolt://localhost:7687`
-
-4. **Run the server**
 # Neo4j Structured Ingestion
 
 Simple Node.js + Express service to upload structured files (CSV, JSON, XLSX) and load them into Neo4j using LLM-generated Cypher.
