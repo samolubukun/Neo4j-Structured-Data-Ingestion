@@ -66,6 +66,8 @@ node .\test\testWriteNeo4j.js
 - Add a health-check endpoint for Neo4j.
 - Add unit tests for LLM response handling.
 
+  
+```text
 │   Handler   │     │  (Local FS)  │     │   Pipeline  │
 └─────────────┘     └──────────────┘     └─────────────┘
                                                  │
@@ -80,7 +82,7 @@ node .\test\testWriteNeo4j.js
                                           │   Neo4j     │
                                           │  Database   │
                                           └─────────────┘
-```
+
 
 ## Features
 
