@@ -60,6 +60,11 @@ node .\test\testWriteNeo4j.js
 - Uploaded files and metadata are stored locally in `uploads/` and `metadata/`.
 - The LLM is asked to return a parameterized Cypher template and a transform function. The transform logic is executed in-process — review and secure this in production.
 - Do not commit secrets (`.env`) to source control. `.gitignore` excludes `.env`, `uploads/`, and `metadata/`.
+  
+## Screenshots
+<img width="2560" height="1208" alt="Screenshot (601)" src="https://github.com/user-attachments/assets/9adaff7c-aea5-4185-9be8-eb6347dfa1d7" />
+<img width="2536" height="1166" alt="Screenshot (598)" src="https://github.com/user-attachments/assets/2465c5f4-aa56-4657-89f0-c9c7ba1d2f2f" />
+<img width="2518" height="1170" alt="Screenshot (600)" src="https://github.com/user-attachments/assets/d97b7cf6-51ce-44f1-b2b3-ad0e4b87c921" />
 
 ## Next steps (optional)
 - Replace eval-based transform parsing with a safe mapping format.
