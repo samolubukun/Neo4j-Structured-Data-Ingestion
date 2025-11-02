@@ -72,7 +72,9 @@ node .\test\testWriteNeo4j.js
 - Add unit tests for LLM response handling.
 
   
-```text
+```html
+<div style="overflow-x:auto; white-space: nowrap;">
+<pre>
 │   Handler   │     │  (Local FS)  │     │   Pipeline  │
 └─────────────┘     └──────────────┘     └─────────────┘
                                                  │
@@ -87,6 +89,8 @@ node .\test\testWriteNeo4j.js
                                           │   Neo4j     │
                                           │  Database   │
                                           └─────────────┘
+</pre>
+</div>
 
 
 ## Features
